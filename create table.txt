@@ -1,0 +1,15 @@
+CREATE TABLE flash_cards.cards
+(
+    term text COLLATE pg_catalog."default" NOT NULL,
+    description text COLLATE pg_catalog."default" NOT NULL,
+    id integer NOT NULL DEFAULT nextval('flash_cards.cards_id_seq'::regclass),
+    category text COLLATE pg_catalog."default",
+    CONSTRAINT cards_pkey PRIMARY KEY (id)
+)
+WITH (
+    OIDS = FALSE
+)
+TABLESPACE pg_default;
+
+ALTER TABLE flash_cards.cards
+    OWNER to postgres;

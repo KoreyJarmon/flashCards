@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: url("bg.jpg");
+}
+
+h1 {
+  color:black;
+  font-family: serif;
+  text-align: center;
+  box-shadow: 0px 1px;
+}
+
+#create-button {
+  width: 7em;
+}
+
+button{
+  background-color:gray;
+  color: khaki;
+  padding: 2px 25px;
+  text-align: center;
+  font-size: large;
+}
+
+table{
+  border-collapse: collapse;
+  background-color: khaki;
+  font-family: sans-serif;
+  color: khaki;
+  border-style: outset;
+}
+
+#search{
+  width: 50em;
+  margin-left: 17.5em;
+  text-align: center;
+}
